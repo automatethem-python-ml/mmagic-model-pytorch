@@ -13,6 +13,7 @@ conda activate mmagic-model
 ```
 
 ```
+pip install -r requirements.txt
 conda install --file requirements_conda_pytorch.txt -c pytorch -y
 ```
 
