@@ -1,0 +1,5 @@
+#conda install --file requirements_conda_pytorch.txt -c pytorch -y
+pytorch
+cpuonly
+torchvision
+torchaudio
