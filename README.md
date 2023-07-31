@@ -34,5 +34,6 @@ https://github.com/open-mmlab/mmagic/blob/main/docs/en/user_guides/inference.md#
 python demo/mmagic_inference_demo.py \
         --model-name basicvsr \
         --video predict_inputs/narrator_speech.mp4 \
-        --result-out-dir predict_outputs/narrator_speech_2x.mp4
+        --result-out-dir predict_outputs/narrator_speech_2x.mp4 \
+        --device cpu
 ```
