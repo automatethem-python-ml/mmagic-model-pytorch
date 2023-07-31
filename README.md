@@ -1,4 +1,4 @@
-# mmagic-model
+# mmagic-model-pytorch
 
 https://github.com/open-mmlab/mmagic
 
