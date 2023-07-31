@@ -1,0 +1,5 @@
+#pip install -r requirements.txt
+torchtext
+pytorch-supporter
+pytorch-model-summary
+chardet
