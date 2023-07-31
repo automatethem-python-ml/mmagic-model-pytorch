@@ -29,10 +29,18 @@ mim install 'mmagic'
 Video super-resolution  
 https://github.com/open-mmlab/mmagic/blob/main/docs/en/user_guides/inference.md#video-super-resolution
 
-
+```
+BasicVSR / BasicVSR++ / IconVSR / RealBasicVSR
+```
 ```
 python demo/mmagic_inference_demo.py \
         --model-name basicvsr \
+        --video predict_inputs/narrator_speech.mp4 \
+        --result-out-dir predict_outputs/narrator_speech_2x.mp4 \
+        --device cpu
+
+python demo/mmagic_inference_demo.py \
+        --model-name iconvsr \
         --video predict_inputs/narrator_speech.mp4 \
         --result-out-dir predict_outputs/narrator_speech_2x.mp4 \
         --device cpu
