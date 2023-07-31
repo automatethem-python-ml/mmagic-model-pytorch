@@ -4,6 +4,18 @@ https://github.com/open-mmlab/mmagic
 
 https://github.com/open-mmlab/mmagic/blob/main/docs/en/user_guides/inference.md
 
+
+## 설치
+
+```
+pip3 install openmim
+mim install 'mmcv>=2.0.0'
+mim install 'mmengine'
+mim install 'mmagic'
+```
+
+## Video super-resolution
+
 Video super-resolution  
 https://github.com/open-mmlab/mmagic/blob/main/docs/en/user_guides/inference.md#video-super-resolution
 ```
