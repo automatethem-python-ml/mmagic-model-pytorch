@@ -8,7 +8,7 @@ https://github.com/open-mmlab/mmagic/blob/main/docs/en/user_guides/inference.md
 ## 설치
 
 ```
-conda create -n mmagic-model python=3.8.11
+conda create -n mmagic-model python=3.10.9
 conda activate mmagic-model
 ```
 
