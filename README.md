@@ -27,10 +27,11 @@ mim install 'mmagic'
 ## Image super-resolution
 
 ```
-!python demo/mmagic_inference_demo.py \
-        --model-name iconvsr \
-        --video predict_inputs/narrator_speech.mp4 \
-        --result-out-dir predict_outputs/narrator_speech_2x.mp4
+python demo/mmagic_inference_demo.py \
+        --model-name esrgan \
+        --img predict_inputs/bbb.png \
+        --result-out-dir predict_outputs/ccc.png \
+        --device cpu
 ```
 
 ## Video super-resolution
