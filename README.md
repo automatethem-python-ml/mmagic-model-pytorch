@@ -1,5 +1,7 @@
 # mmagic-model
 
+https://github.com/open-mmlab/mmagic
+
 https://github.com/open-mmlab/mmagic/blob/main/docs/en/user_guides/inference.md
 
 Video super-resolution  
