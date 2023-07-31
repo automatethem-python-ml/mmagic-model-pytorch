@@ -13,6 +13,10 @@ conda activate mmagic-model
 ```
 
 ```
+conda install --file requirements_conda_pytorch.txt -c pytorch -y
+```
+
+```
 pip3 install openmim
 mim install 'mmcv>=2.0.0'
 mim install 'mmengine'
